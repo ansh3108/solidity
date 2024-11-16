@@ -1,5 +1,5 @@
 const ethers = require("ethers");
-const fs 
+const fs = require("fs-extra");
 
 async function main(){
     const provider = new ethers.providers.JsonRpcProvider("http://0.0.0.0:8545/");
