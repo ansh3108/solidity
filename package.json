@@ -1,0 +1,9 @@
+{
+    "dependencies": {
+        "ethers":"6.13.4",
+        "solc": "0.8.7-fixed"
+    },
+    "scripts": {
+        "compile": "node_modules/.bin/solcjs --bin --abi --include-path node_modules/ --base-path . -o . \"C:/Users/itzan/Documents/Web3/code/ethers-simple-storage/storage.sol\""
+    }
+}
