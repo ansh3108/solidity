@@ -7,8 +7,8 @@ async function main(){
     const abi=fs.readFileSync("./storage_sol_SimpleStorage.abi", "utf8");
     const binary = fs.readFileSync("./storage_sol_SimpleStorage.bin","utf8");
     const contractFactory = new ethers.ContractFactory(abi, binary, wallet);
+    const contract =await contractFactory.deploy({gasPrice: 1000000000}); //wait for contract to deploy
     console.log("Deploying, please wait.....");
-    const contract =await contractFactory.deploy(); //wait for contract to deploy
     console.log(contract);
 }
 
