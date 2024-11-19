@@ -1,7 +1,7 @@
 const ethers = require("ethers");
 const fs = require("fs-extra");
 
-async function main(){
+async function main(){  
     // const provider = new ethers.providers.JsonRpcProvider("HTTP://127.0.0.1:7545");
     // const wallet = new ethers.Wallet("0x5758aeaab84a7289fccf5249b0a5212640f95c8eda89d74418462255ef6c0a85", provider);
     // const abi=fs.readFileSync("./storage_sol_SimpleStorage.abi", "utf8");
