@@ -1,5 +1,7 @@
 const ethers = require("ethers");
 const fs = require("fs-extra");
+require("dotenv").config
+
 
 async function main(){  
     // const provider = new ethers.providers.JsonRpcProvider("HTTP://127.0.0.1:7545");
